@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang ="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Julia Bragina">
+    <meta name="description" content=""> 
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="./29-task.css">
+    <title></title>
+  </head>
+
+  <body class="root">
+
+    <header class="header">
+      <h1 class="header__title">Заполните форму ниже</h1>
+    </header>
+
+    <main class="main">
+
+      <form class="main__form" name="form">
+        <div class="main__containerForm">
+          <label for="input" class="main__labelForm">Фамилия</label>
+          <input class="main__inputForm" id="input" name="inputSurname">
+        </div>
+        <div class="main__containerForm">
+          <label for="input" class="main__labelForm">Имя</label>
+          <input class="main__inputForm" id="input" name="inputName">
+        </div>
+        <div class="main__containerForm">
+          <label for="input" class="main__labelForm">Отчество</label>
+          <input class="main__inputForm" id="input" name="inputPatronymic">
+        </div>
+        <div class="main__containerForm">
+          <label for="input" class="main__labelForm">Номер телефона</label>
+          <input class="main__inputForm" id="input" name="inputTel">
+        </div>
+        <button type="submit" class="main__buttonForm">Отправить</button>
+      </form>
+
+    </main>
+
+    <section class="popup">
+      <form class="popup__form">
+        <div class="popup__formContainer">
+          <button type="click" class="popup__buttonForm">X</button>
+          <h2 class="popup__titleForm">Данные с формы</h2>
+          <input class="popup__input" value="" disabled>
+        </div>
+      </form>
+    </section>
+
+  </body>
+  <script src="./29-task.js" defer></script>
+</html>

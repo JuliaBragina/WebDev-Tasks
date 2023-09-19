@@ -1,0 +1,30 @@
+.root{
+  margin: 0 auto;
+  max-width: 1280px;
+  min-width: 320px;
+  background-color: #fff;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  color: #050320a1;
+}
+
+.header, .main{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.main__form{
+  height: 50px;
+}
+
+.main__containerForm{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.main__buttonForm{
+  width: 200px;
+  height: 20px;
+}

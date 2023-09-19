@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Julia Bragina">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <link rel="stylesheet" href="./24-task.css">
+  <title></title>
+</head>
+
+<body class="root">
+  <header class="header">
+    <h1 class="header__title">Список пользователей</h1>
+    <div class="header__buttonContainer">
+      <button class="header__button header__button_left">Назад</button>
+      <button class="header__button header__button_right">Вперед</button>
+    </div>
+  </header>
+  <main class="main">
+    <div class="main__table">
+      <div class="main__titlesTable">
+
+        <div class="main__titleContainer">
+          <h2 class="main__titleTable" value="zip">zip</h2>
+          <button type="click" class="main__buttonSortUP"></button>
+          <button type="click" class="main__buttonSortDOWN"></button>
+        </div>
+
+        <div class="main__titleContainer">
+          <h2 class="main__titleTable" value="fname">Имя</h2>
+          <button type="click" class="main__buttonSortUP"></button>
+          <button type="click" class="main__buttonSortDOWN"></button>
+        </div>
+
+        <div class="main__titleContainer">
+          <h2 class="main__titleTable" value="lname">Фамилия</h2>
+          <button type="click" class="main__buttonSortUP"></button>
+          <button type="click" class="main__buttonSortDOWN"></button>
+        </div>
+
+        <div class="main__titleContainer">
+          <h2 class="main__titleTable" value="tel">Телефон</h2>
+          <button type="click" class="main__buttonSortUP"></button>
+          <button type="click" class="main__buttonSortDOWN"></button>
+        </div>
+
+        <div class="main__titleContainer">
+          <h2 class="main__titleTable" value="city">Город</h2>
+          <button type="click" class="main__buttonSortUP"></button>
+          <button type="click" class="main__buttonSortDOWN"></button>
+        </div>
+
+        <div class="main__titleContainer">
+          <h2 class="main__titleTable" value="state">Штат</h2>
+          <button type="click" class="main__buttonSortUP"></button>
+          <button type="click" class="main__buttonSortDOWN"></button>
+        </div>
+
+        <div class="main__titleContainer">
+          <h2 class="main__titleTable" value="address">Адрес</h2>
+          <button type="click" class="main__buttonSortUP"></button>
+          <button type="click" class="main__buttonSortDOWN"></button>
+        </div>
+
+      </div>
+      <div class="main__dataContainer">
+
+      </div>
+    </div>
+  </main>
+
+  <template id="tempalate">
+    <div class="tempalate">
+      <p class="main__itemZip" value=""></p>
+      <p class="main__itemName" value=""></p>
+      <p class="main__itemSname" value=""></p>
+      <p class="main__itemTel" value=""></p>
+      <p class="main__itemCity" value=""></p>
+      <p class="main__itemState" value=""></p>
+      <p class="main__itemAdress" value=""></p>
+    </div>
+  </template>
+  <script type="module" src="./24-task.js" defer></script>
+</body>
+
+</html>

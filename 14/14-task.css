@@ -1,0 +1,13 @@
+.main{
+  margin: 0 auto;
+  max-width: 1280px;
+  min-width: 320px;
+  background-color: #fff;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+}
+
+.main__img{
+  width: 100%;
+}
